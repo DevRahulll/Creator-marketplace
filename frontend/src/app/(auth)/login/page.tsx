@@ -2,7 +2,6 @@ import LoginForm from "@/components/auth/LoginForm";
 import { getMe } from "@/lib/auth/getMe";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import React from "react";
 
 export default async function LoginPage() {
   const me = await getMe();
